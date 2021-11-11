@@ -35,16 +35,6 @@ Online demo: https://maptiler.github.io/cra-template-maplibre-gl-js/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Create an app
-
-To create a new react project run in your command-line:
-
-```
-  npx create-react-app my-react-map --template @maptiler/cra-template-maplibre-gl-js
-```
-
-Navigate to the newly created project folder **my-react-map**
-
 ### API KEY
 
 Rename or copy the `.env.example` file to `.env`
@@ -75,6 +65,7 @@ Now you should see the app in your browser.
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
