@@ -4,6 +4,10 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import './map.css';
 
 export default function Map() {
+  if (process.env.REACT_APP_API_KEY == null) {
+    throw new Error("You have to configure env REACT_APP_API_KEY, see README");
+  }
+
   const mapContainerRef = useRef();
 
   useEffect(() => {
