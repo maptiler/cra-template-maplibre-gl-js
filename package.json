@@ -1,6 +1,6 @@
 {
   "name": "@maptiler/cra-template-maplibre-gl-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quick way to star a web map application with MapLibre GL JS using Create React App.",
   "main": "template.json",
   "private": false,
