@@ -1,31 +1,35 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, {useEffect, useRef} from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './map.css';
 
-export default function Map(){
-  const mapContainer = useRef(null);
-  const map = useRef(null);
-  const [lng] = useState(139.753);
-  const [lat] = useState(35.6844);
-  const [zoom] = useState(14);
-  const [API_KEY] = useState(process.env.REACT_APP_API_KEY);
+export default function Map() {
+  if (process.env.REACT_APP_API_KEY == null) {
+    throw new Error("You have to configure env REACT_APP_API_KEY, see README");
+  }
+
+  const mapContainerRef = useRef();
 
   useEffect(() => {
-    if (map.current) return; //stops map from intializing more than once
-    map.current = new maplibregl.Map({
-      container: mapContainer.current,
-      style: `https://api.maptiler.com/maps/streets/style.json?key=${API_KEY}`,
-      center: [lng, lat],
-      zoom: zoom
+    const map = new maplibregl.Map({
+      container: mapContainerRef.current,
+      style: `https://api.maptiler.com/maps/streets/style.json?key=${process.env.REACT_APP_API_KEY}`,
+      center: [139.753, 35.6844],
+      zoom: 14
     });
-    map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
-  });
+
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+    return () => {
+      map.remove();
+    }
+  }, []);
 
   return (
-    <div className="map-wrap">
-      <a href="https://www.maptiler.com" className="watermark"><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo" /></a>
-      <div ref={mapContainer} className="map" />
-    </div>
+      <div className="map-wrap">
+        <a href="https://www.maptiler.com" className="watermark"><img
+            src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo"/></a>
+        <div ref={mapContainerRef} className="map"/>
+      </div>
   );
 }
