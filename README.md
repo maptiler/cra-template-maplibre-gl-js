@@ -1,0 +1,73 @@
+# MapLibre GL JS map using React JS
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Quick way to star a web map application with MapLibre GL JS using Create React App.
+
+A simple fullscreen map application as an example on how to use MapTiler maps together with React and MapLibre GL JS for your own React app.
+
+## Screenshot
+
+![react maplibre template](/assets/react-maplibre-template.png "React Maplibre template")
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Demo
+
+Online demo: https://maptiler.github.io/cra-template-maplibre-gl-js/
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Build With
+
+* [React.js](https://reactjs.org/)
+* [MapLibre GL JS](https://maplibre.org/)
+* [MapTiler](https://www.maptiler.com/)
+
+## Getting Started
+
+### Prerequisites
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### API KEY
+
+Rename or copy the `.env.example` file to `.env`
+
+Open the `.env` file, :warning: you will need to replace **YOUR_MAPTILER_API_KEY** with your own MapTiler API key.
+
+Your MapTiler account access key is on your MapTiler [Cloud](https://cloud.maptiler.com/account/keys/) account page. 
+
+:information_source: If you don't have an API KEY you can create it for free at https://www.maptiler.com/cloud/
+
+### Run
+
+To start your local environment run: 
+
+```
+  npm start
+``` 
+
+You will find your app on address http://localhost:3000/.
+
+Now you should see the app in your browser.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Instead of using or developing a custom map component you can use the [reac-map-gl component](http://visgl.github.io/react-map-gl/docs/get-started/get-started#using-with-a-mapbox-gl-fork)
