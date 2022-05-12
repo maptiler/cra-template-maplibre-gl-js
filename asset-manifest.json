@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cra-template-maplibre-gl-js/static/css/main.cad28070.css",
+    "main.js": "/cra-template-maplibre-gl-js/static/js/main.f36c0e11.js",
+    "static/js/787.24dac545.chunk.js": "/cra-template-maplibre-gl-js/static/js/787.24dac545.chunk.js",
+    "index.html": "/cra-template-maplibre-gl-js/index.html",
+    "main.cad28070.css.map": "/cra-template-maplibre-gl-js/static/css/main.cad28070.css.map",
+    "main.f36c0e11.js.map": "/cra-template-maplibre-gl-js/static/js/main.f36c0e11.js.map",
+    "787.24dac545.chunk.js.map": "/cra-template-maplibre-gl-js/static/js/787.24dac545.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cad28070.css",
+    "static/js/main.f36c0e11.js"
+  ]
+}
