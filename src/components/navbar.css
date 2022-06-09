@@ -9,3 +9,75 @@
   padding: 20px;
   margin: 0;
 }
+
+.btn {
+  display: inline-block;
+  font-family: ubuntu,open sans,sans-serif;
+  font-weight: 500;
+  line-height: 15px;
+  color: #6b7c92;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 0 solid transparent;
+  padding: 10px 17px;
+  font-size: .8125rem;
+  border-radius: 4px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3174ff;
+  border-color: #3174ff;
+}
+
+.tutorial-button {
+  left: 20px;
+  position: absolute;
+  top: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.tutorial-button svg {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+
+  0%,
+  100% {
+    transform: rotate(0)
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
+}
+
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+}
