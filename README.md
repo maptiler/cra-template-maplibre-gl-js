@@ -18,7 +18,7 @@ Documentation: [How to display a map in React JS using MapLibre GL JS](https://d
 
 ## Demo
 
-Online demo: https://maptiler.github.io/cra-template-maplibre-gl-js/
+Online demo: https://labs.maptiler.com/cra-template-maplibre-gl-js/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
