@@ -12,6 +12,10 @@ A simple fullscreen map application as an example on how to use MapTiler maps to
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Step-by-step tutorial - How to display a map in React JS using MapLibre GL JS
+
+Documentation: [How to display a map in React JS using MapLibre GL JS](https://documentation.maptiler.com/hc/en-us/articles/4405444890897-how-to-display-maplibre-gl-js-map-using-react-js?utm_medium=referral&utm_source=github&utm_campaign=2022-05%20%7C%20js%20frameworks%20%7C%20react)
+
 ## Demo
 
 Online demo: https://maptiler.github.io/cra-template-maplibre-gl-js/
@@ -45,9 +49,17 @@ To create a new react project run in your command-line:
 
 Navigate to the newly created project folder **my-react-map**
 
+```
+  cd my-react-map
+```
+
 ### API KEY
 
 Rename or copy the `.env.example` file to `.env`
+
+```
+  cp .env.example .env
+```
 
 Open the `.env` file, :warning: you will need to replace **YOUR_MAPTILER_API_KEY** with your own MapTiler API key.
 
@@ -62,6 +74,20 @@ To start your local environment run:
 ```
   npm start
 ``` 
+
+### Build
+
+To build for production, run: 
+```
+  npm run build
+``` 
+
+### gh-pages
+
+To deploy the app to the gh-pages branch, run:
+```
+  node gh-pages.js
+```
 
 You will find your app on address http://localhost:3000/.
 

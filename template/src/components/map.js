@@ -20,6 +20,10 @@ export default function Map() {
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
+    new maplibregl.Marker({color: "#FF0000"})
+      .setLngLat([139.7525,35.6846])
+      .addTo(map);
+
     return () => {
       map.remove();
     }
