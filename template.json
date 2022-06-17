@@ -4,8 +4,13 @@
       "@testing-library/jest-dom": "^5.15.0",
       "@testing-library/react": "^11.2.7",
       "@testing-library/user-event": "^12.8.3",
+      "gh-pages": "^4.0.0",
       "maplibre-gl": "^1.15.2",
       "web-vitals": "^1.1.2"
+    },
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
       "extends": ["react-app", "react-app/jest"]

@@ -18,7 +18,7 @@ Documentation: [How to display a map in React JS using MapLibre GL JS](https://d
 
 ## Demo
 
-Online demo: https://maptiler.github.io/cra-template-maplibre-gl-js/
+Online demo: https://labs.maptiler.com/cra-template-maplibre-gl-js/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -38,6 +38,20 @@ Online demo: https://maptiler.github.io/cra-template-maplibre-gl-js/
   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+### Create an app
+
+To create a new react project run in your command-line:
+
+```
+  npx create-react-app my-react-map --template @maptiler/cra-template-maplibre-gl-js
+```
+
+Navigate to the newly created project folder **my-react-map**
+
+```
+  cd my-react-map
+```
 
 ### API KEY
 
@@ -61,12 +75,6 @@ To start your local environment run:
   npm start
 ``` 
 
-You will find your app on address http://localhost:3000/.
-
-Now you should see the app in your browser.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Build
 
 To build for production, run: 
@@ -78,8 +86,14 @@ To build for production, run:
 
 To deploy the app to the gh-pages branch, run:
 ```
-  node gh-pages.js
+  npm run deploy
 ```
+
+You will find your app on address http://localhost:3000/.
+
+Now you should see the app in your browser.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
@@ -87,7 +101,6 @@ To deploy the app to the gh-pages branch, run:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments

@@ -86,7 +86,7 @@ To build for production, run:
 
 To deploy the app to the gh-pages branch, run:
 ```
-  node gh-pages.js
+  npm run deploy
 ```
 
 You will find your app on address http://localhost:3000/.
