@@ -75,6 +75,10 @@ To start your local environment run:
   npm start
 ``` 
 
+You will find your app on address http://localhost:3000/.
+
+Now you should see the app in your browser.
+
 ### Build
 
 To build for production, run: 
@@ -88,10 +92,6 @@ To deploy the app to the gh-pages branch, run:
 ```
   npm run deploy
 ```
-
-You will find your app on address http://localhost:3000/.
-
-Now you should see the app in your browser.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
