@@ -6,6 +6,8 @@ Quick way to star a web map application with MapLibre GL JS using Create React A
 
 A simple fullscreen map application as an example on how to use MapTiler maps together with React and MapLibre GL JS for your own React app.
 
+The map application contains a title component, a map component with navigation controls, and a marker.
+
 ## Screenshot
 
 ![react maplibre template](/assets/react-maplibre-template.png "React Maplibre template")
@@ -105,4 +107,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Instead of using or developing a custom map component you can use the [reac-map-gl component](http://visgl.github.io/react-map-gl/docs/get-started/get-started#using-with-a-mapbox-gl-fork)
+Instead of using or developing a custom map component you can use the [reac-map-gl component](http://visgl.github.io/react-map-gl/docs/get-started/get-started#using-with-a-mapbox-gl-fork).
+
+Checkout to [Get started with React JS and MapLibre GL JS](https://github.com/maptiler/get-started-react-maplibre-gl-js) repo to use de react-map-gl component.
