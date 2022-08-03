@@ -16,7 +16,7 @@ The map application contains a title component, a map component with navigation 
 
 ## Step-by-step tutorial - How to display a map in React JS using MapLibre GL JS
 
-Documentation: [How to display a map in React JS using MapLibre GL JS](https://documentation.maptiler.com/hc/en-us/articles/4405444890897-how-to-display-maplibre-gl-js-map-using-react-js?utm_medium=referral&utm_source=github&utm_campaign=2022-05%20%7C%20js%20frameworks%20%7C%20react)
+Documentation: [How to display a map in React JS using MapLibre GL JS](https://docs.maptiler.com/react/maplibre-gl-js/how-to-use-maplibre-gl-js/?utm_medium=referral&utm_source=github&utm_campaign=2022-05%20%7C%20js%20frameworks%20%7C%20react)
 
 ## Demo
 
